@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">PinBoard Keyboard</string>
+    <string name="settings_title">PinBoard Settings</string>
+    <string name="manage_pinned_title">Manage Pinned Messages</string>
+
+    <string name="enable_keyboard">1. Enable Keyboard</string>
+    <string name="switch_keyboard">2. Switch to PinBoard</string>
+    <string name="manage_pinned">Manage Pinned Messages</string>
+    <string name="open_settings">Settings</string>
+
+    <string name="intro_text">PinBoard is a fast, offline keyboard with one-tap pinned messages, an emoji panel, and a random text generator.\n\nTo start typing with it, enable it below, then switch to it from any text field.</string>
+
+    <string name="add_pinned_message">Add pinned message</string>
+    <string name="edit_pinned_message">Edit pinned message</string>
+    <string name="hint_message">Type your message…</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="search_hint">Search pinned messages…</string>
+    <string name="no_pinned_messages">No pinned messages yet.\nTap + to add one.</string>
+
+    <string name="dark_mode">Dark mode</string>
+    <string name="generator_length">Generator length</string>
+    <string name="backup_pinned">Backup pinned messages</string>
+    <string name="restore_pinned">Restore pinned messages</string>
+    <string name="clear_pinned">Clear all pinned messages</string>
+    <string name="clear_confirm_title">Clear all pinned messages?</string>
+    <string name="clear_confirm_message">This cannot be undone.</string>
+
+    <string name="backup_success">Backup saved</string>
+    <string name="restore_success">Pinned messages restored</string>
+    <string name="backup_failed">Backup failed</string>
+    <string name="restore_failed">Restore failed</string>
+</resources>

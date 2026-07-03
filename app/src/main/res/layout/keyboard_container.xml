@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/keyboard_bg"
+    android:orientation="vertical">
+
+    <!-- Toolbar: Pinned | Emoji | Generator -->
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/toolbar_bg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btnPinned"
+            style="@style/ToolbarButton"
+            android:text="📌 Pinned" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/divider" />
+
+        <TextView
+            android:id="@+id/btnEmoji"
+            style="@style/ToolbarButton"
+            android:text="😀 Emoji" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/divider" />
+
+        <TextView
+            android:id="@+id/btnGenerator"
+            style="@style/ToolbarButton"
+            android:text="🎲 Generate" />
+    </LinearLayout>
+
+    <!-- Swappable panel area (Pinned list / Emoji grid). Hidden by default. -->
+    <FrameLayout
+        android:id="@+id/panelContainer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/panel_height"
+        android:visibility="gone" />
+
+    <!-- Standard keyboard -->
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:keyBackground="@drawable/key_background"
+        android:keyTextColor="@color/key_text"
+        android:keyTextSize="20sp"
+        android:background="@color/keyboard_bg"
+        android:shadowRadius="0" />
+
+</LinearLayout>

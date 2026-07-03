@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="key_height">52dp</dimen>
+    <dimen name="toolbar_height">44dp</dimen>
+    <dimen name="panel_height">230dp</dimen>
+</resources>

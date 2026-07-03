@@ -1,0 +1,10 @@
+<resources>
+    <color name="key_bg">#2B2C33</color>
+    <color name="key_bg_special">#1E1F25</color>
+    <color name="key_text">#ECECF1</color>
+    <color name="keyboard_bg">#17181C</color>
+    <color name="toolbar_bg">#1E1F25</color>
+    <color name="panel_bg">#202127</color>
+    <color name="divider">#34353D</color>
+    <color name="hint_text">#9A9BA5</color>
+</resources>
